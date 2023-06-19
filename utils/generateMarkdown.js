@@ -23,6 +23,10 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Badges](#badges)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#test)
+- [Questions](#questions)
 
 ## Installation
 

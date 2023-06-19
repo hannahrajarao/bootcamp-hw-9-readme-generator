@@ -63,7 +63,7 @@ ${data.tests}
 
 ## Questions
 
-My GitHub profile is [https://github.com/${data.username}](https://github.com/${data.username})
+My GitHub profile is [github.com/${data.username}](https://github.com/${data.username})   
 You can email me at [${data.email}](mailto:${data.email})
 `;
 }

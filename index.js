@@ -13,7 +13,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is your password?',
+        message: 'Project description',
         name: 'description',
     },
     {
@@ -29,7 +29,7 @@ const questions = [
     {
         type: 'input',
         message: 'Contribution guidelines',
-        name: 'contribution',
+        name: 'contributing',
     },
     {
         type: 'input',

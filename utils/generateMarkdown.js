@@ -92,7 +92,6 @@ const licenses = {
 }
 
 function renderLicenseBadge(license) {
-  console.log('license badge',licenses[license].badge)
   return licenses[license].badge;
 }
 

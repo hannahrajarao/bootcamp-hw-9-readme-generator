@@ -1,5 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 const licenses = {
   "Apache": {
     "link": "https://opensource.org/licenses/Apache-2.0",
@@ -95,20 +93,15 @@ function renderLicenseBadge(license) {
   return licenses[license].badge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   return licenses[license].link;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseLink = renderLicenseLink(license);
   return `This is the [${license}](${licenseLink}) license`;
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
